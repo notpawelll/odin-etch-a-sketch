@@ -15,3 +15,10 @@ function generateGrid(numCells) {
 }
 
 generateGrid(16);
+
+const gridCells = document.querySelectorAll(".grid-cell");
+gridCells.forEach((gridCell) => {
+  gridCell.addEventListener("mouseover", (e) => {
+    gridCell.classList.add("background-color-darksmoke");
+  });
+});
