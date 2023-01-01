@@ -1,0 +1,55 @@
+.color-harvardcrimson {
+  color: #BD001B;
+}
+
+.color-lava {
+  color: #D31620;
+}
+
+.color-satinsheengold {
+  color: #D3A42E;
+}
+
+.color-goldfoil {
+  color: #BA931B;
+}
+
+.color-gold {
+  color: #A57C00;
+}
+
+.color-whitesmoke {
+  color: whitesmoke;
+}
+
+.color-darksmoke {
+  color: #292929;
+}
+
+.background-color-harvardcrimson {
+  background-color: #BD001B;
+}
+
+.background-color-lava {
+  background-color: #D31620;
+}
+
+.background-color-satinsheengold {
+  background-color: #D3A42E;
+}
+
+.background-color-goldfoil {
+  background-color: #BA931B;
+}
+
+.background-color-gold {
+  background-color: #A57C00;
+}
+
+.background-color-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.background-color-darksmoke {
+  background-color: #292929;
+}
