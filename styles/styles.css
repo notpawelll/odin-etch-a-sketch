@@ -60,6 +60,12 @@ body {
   align-items: center;
   width: 60%;
   padding: 24px 20%;
+  gap: 24px;
+}
+
+.button-settings {
+  background-color: whitesmoke;
+  border-color: #BD001B;
 }
 
 #grid-container {
@@ -77,9 +83,4 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.grid-cell {
-  /* background-color: hsl(0, 0%, 96%);
-  border: 1px solid hsl(0, 0%, 80%); */
 }
