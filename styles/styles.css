@@ -53,21 +53,32 @@ body {
   margin-top: auto;
 }
 
-#grid-container {
+#etch-a-sketch {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  heigh: 
+  width: 60%;
+  padding: 24px 20%;
+}
+
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 480px;
+  width: 480px;
+  border: 4px solid #BD001B;
 }
 
 .grid-row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .grid-cell {
-  height: 48px;
-  width: 48px;
-  text-align: center;
+  border: 1px solid hsl(0, 0%, 80%);
 }
